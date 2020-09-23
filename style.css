@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eceffc;
+    flex-direction: column;
+}
+
+#user_num {
+    height: 30px;
+    width: 90%;
+}
+
+#header {
+    font-size: 20px;
+}
+
+#user_box {
+    box-sizing: border-box;
+    background-color: #2f3032;
+    height: 60vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109), 0 1px 1px rgba(128, 128, 128, 0.155), 0 2.1px 2.1px rgba(128, 128, 128, 0.195), 0 4.4px 4.4px rgba(128, 128, 128, 0.241), 0 12px 12px rgba(128, 128, 128, 0.35);
+}
+
+#submit {
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: #2f3032;
+    width: 70%;
+    color: white;
+}
+
+#submit::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 120deg, transparent, var(--primary-color), transparent);
+    transform: translateX(-100%);
+    transition: 0.6s;
+}
+
+#submit:hover {
+    background: transparent;
+    box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
+}
+
+#submit:link {
+    border: none;
+}
+
+#result {
+    font-size: 18px;
+}
