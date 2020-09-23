@@ -29,6 +29,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109), 0 1px 1px rgba(128, 128, 128, 0.155), 0 2.1px 2.1px rgba(128, 128, 128, 0.195), 0 4.4px 4.4px rgba(128, 128, 128, 0.241), 0 12px 12px rgba(128, 128, 128, 0.35);
     margin-top: 10%;
+    background-image: url(./images/apple.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 12%;
 }
 
 #submit {
