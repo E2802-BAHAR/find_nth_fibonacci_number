@@ -64,3 +64,8 @@ body {
 #result {
     font-size: 18px;
 }
+@media screen and (max-width: 768px) {
+    #user_box {
+        width: 100%;
+    }
+}
