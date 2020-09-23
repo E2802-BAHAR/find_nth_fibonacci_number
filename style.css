@@ -71,8 +71,9 @@ body {
         min-height: 245px;
     }
     #user_num {
-        height: 30px;
+        height: 40px;
         width: 90%;
+        min-height: 40px;
     }
     #submit {
         min-height: 30px;
