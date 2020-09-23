@@ -73,4 +73,7 @@ body {
         height: 30px;
         width: 90%;
     }
+    #submit {
+        min-height: 30px;
+    }
 }
