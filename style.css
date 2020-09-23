@@ -70,12 +70,12 @@ body {
         width: 100%;
         min-height: 245px;
     }
-    #user_num {
-        height: 40px;
+   #user_num {
+        min-height: 30px;
         width: 90%;
-        min-height: 40px;
+        height: 30px;
     }
     #submit {
-        min-height: 30px;
+        min-height: 40px;
     }
 }
