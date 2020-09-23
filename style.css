@@ -68,4 +68,8 @@ body {
     #user_box {
         width: 100%;
     }
+    #user_num {
+        height: 30px;
+        width: 90%;
+    }
 }
