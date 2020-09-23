@@ -68,6 +68,7 @@ body {
 @media screen and (max-width: 768px) {
     #user_box {
         width: 100%;
+        min-height: 245px;
     }
     #user_num {
         height: 30px;
